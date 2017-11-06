@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="viewport" content="width=device-width, initial-scale=1">
+    <title>Web site on Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">BOOTSTRAP</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">пункт 1</a></li>
+                <li><a href="#">пункт 2</a></li>
+                <li><a href="#">пункт 3</a></li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header>
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>Пробный сайт на Bootstrap</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="container">
+        <div class="row centered">
+            <article class="col-md-4">
+                <h4>заголовок</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam aspernatur
+                    distinctio dolorum esse, facere id officiis pariatur praesentium quod sit totam vitae voluptatum! Ad
+                    animi aut et eveniet excepturi in labore, libero possimus soluta temporibus veritatis voluptate?</p>
+            </article>
+            <article class="col-md-4">
+                <h4>заголовок</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam aspernatur
+                    distinctio dolorum esse, facere id officiis pariatur praesentium quod sit totam vitae voluptatum! Ad
+                    animi aut et eveniet excepturi in labore, libero possimus soluta temporibus veritatis voluptate?</p>
+            </article>
+            <article class="col-md-4">
+                <h4>заголовок</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam aspernatur
+                    distinctio dolorum esse, facere id officiis pariatur praesentium quod sit totam vitae voluptatum! Ad
+                    animi aut et eveniet excepturi in labore, libero possimus soluta temporibus veritatis voluptate?</p>
+            </article>
+        </div>
+    </section>
+    <section class="carousel slide" id="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel" data-slide-to="0"></liclass>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/bg1.jpg" alt="pic1">
+                <div class="carousel-caption">
+                    <h3>первый слайд</h3>
+                    <p>описание слайда</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/bg2.jpg" alt="pic2">
+                <div class="carousel-caption">
+                    <h3>второй слайд</h3>
+                    <p>описание слайда</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/bg3.jpg" alt="pic3">
+                <div class="carousel-caption">
+                    <h3>третий слайд</h3>
+                    <p>описание слайда</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/bg4.jpg" alt="pic4">
+                <div class="carousel-caption">
+                    <h3>четвертый слайд</h3>
+                    <p>описание слайда</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/bg5.jpg" alt="pic5">
+                <div class="carousel-caption">
+                    <h3>пятый слайд</h3>
+                    <p>описание слайда</p>
+                </div>
+            </div>
+        </div>
+        <a href="#carousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#carousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form-inline centered">
+                        <div class="form-group">
+                            <label for="exampleInputName2">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName2" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail2">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Your email">
+                        </div>
+                        <button type="submit" class="btn btn-default">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>заголовок</h3><br>
+                <a href="#" class="foota">пункт 1</a><br>
+                <a href="#" class="foota">пункт 2</a><br>
+                <a href="#" class="foota">пункт 3</a><br>
+            </div>
+            <div class="col-md-4">
+                <h3>заголовок</h3><br>
+                <a href="#" class="foota"><i class="fa fa-facebook-official fa-lg fared" aria-hidden="true"></i> facebook</a><br>
+                <a href="#" class="foota"><i class="fa fa-skype fa-lg fared" aria-hidden="true"></i> skype</a><br>
+                <a href="#" class="foota"><i class="fa fa-twitter-square fa-lg fared" aria-hidden="true"></i> twitter</a><br>
+            </div>
+            <div class="col-md-4">
+                <h3>заголовок</h3><br>
+                <a href="#" class="foota"><i class="fa fa-home fa-lg fared" aria-hidden="true"></i> adress</a><br>
+                <a href="#" class="foota"><i class="fa fa-phone-square fa-lg fared" aria-hidden="true"></i> telefon number</a><br>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
