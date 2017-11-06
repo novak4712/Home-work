@@ -5,41 +5,49 @@ body {
     color: #555555;
     font-family: "Segoe UI", sans-serif;
 }
-h1{
+
+h1 {
     color: #fff;
     font-weight: 300;
     margin-top: 80px;
     font-size: 50px;
     letter-spacing: 2px;
 }
+
 p {
     line-height: 28px;
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
+
 .centered {
     text-align: center;
 }
+
 .navbar {
     font-size: 14px;
-    padding-top:15px;
-    padding-bottom:15px;
-    font-weight:bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
 }
+
 .navbar-inverse {
     background: #2d2d2d;
     border-color: #2d2d2d;
 }
+
 .navbar-inverse .navbar-nav > li:hover {
     background-color: #ff7878;
 }
+
 .navbar-inverse .navbar-brand {
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 28px;
     letter-spacing: 2px;
     font-family: "Colonna MT";
     color: #999999;
 }
-header{
+
+header {
     background: url("../images/backend.jpg") no-repeat;
     padding-top: 20px;
     text-align: center;
@@ -49,50 +57,62 @@ header{
     background-size: 100%;
     -webkit-background-size: cover;
 }
+
 main > section > div {
     padding-top: 50px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
+
 h4 {
     font-size: 25px;
 }
+
 div.carousel-caption {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, .8);
 }
+
 .carousel-indicators li {
     background-color: #2d2d2d;
     width: 20px;
     height: 20px;
     margin: 5px;
 }
+
 .carousel-indicators .active {
     background-color: #ff7878;
     width: 20px;
     height: 20px;
     margin: 5px;
 }
+
 section:last-child {
     background-color: #FF7878;
 }
+
 footer {
     background: #2d2d2d;
     color: #fff;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
 }
+
 .foota {
     color: #999;
     display: block;
 }
+
 .fared {
     color: #ff7878;
 }
+
 .foota:hover {
     color: #fff;
 }
